@@ -566,3 +566,40 @@ main {
   min-height: 65vh;
   margin-bottom: 100px;
 }
+
+body {
+  margin: 0px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(241 245 249 / var(--tw-bg-opacity));
+  padding: 0px;
+  font-family: "Montserrat";
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  font-family: "Montserrat";
+}
+
+input::placeholder,
+textarea::placeholder {
+  font-family: "Montserrat";
+}
+
+input:focus,
+textarea:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+a,
+nav button {
+  cursor: pointer;
+  border-style: none;
+  background-color: transparent;
+  font-family: "Montserrat";
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+  text-decoration-line: none;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}

@@ -6,3 +6,22 @@ main {
     min-height: 65vh;
     margin-bottom: 100px;
 }
+
+body {
+    @apply bg-slate-100 p-0 m-0 font-["Montserrat"]
+}
+
+input::placeholder,
+textarea::placeholder {
+    @apply font-["Montserrat"]
+}
+
+input:focus,
+textarea:focus {
+    @apply outline-none
+}
+
+a,
+nav button {
+    @apply no-underline bg-transparent border-none text-black transition-all cursor-pointer font-["Montserrat"]
+}

@@ -2,6 +2,16 @@ nav {
     @apply flex shadow-lg justify-between items-center px-2 py-3
 }
 
+
+
+.brand {
+    @apply text-lg
+}
+
+.brand span {
+    @apply font-extrabold
+}
+
 .linksList {
     @apply flex list-none gap-5
 }
