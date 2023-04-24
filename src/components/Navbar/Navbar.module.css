@@ -1,0 +1,11 @@
+nav {
+    @apply flex shadow-lg justify-between items-center px-2 py-3
+}
+
+.linksList {
+    @apply flex list-none gap-5
+}
+
+.active {
+    @apply text-orange-400
+}

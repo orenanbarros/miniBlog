@@ -1,0 +1,7 @@
+footer {
+    @apply h-64 flex flex-col items-center justify-center bg-slate-100
+}
+
+footer span {
+    @apply text-orange-600
+}

@@ -561,3 +561,8 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+
+main {
+  min-height: 65vh;
+  margin-bottom: 100px;
+}
